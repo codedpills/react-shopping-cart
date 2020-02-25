@@ -1,0 +1,65 @@
+body {
+ color: black;
+ background: #f4f4f4;
+}
+.sizes {
+   height:40px;
+   width: 40px;
+   background: gray; 
+   border-radius: 50%;
+}
+.text {
+    padding-top: 10px;
+}
+.sizes-button {
+    display: flex;
+    margin: auto;
+    /* justify-content: center;
+    align-items: center;
+    align-content: space-between; */
+}
+.btnn{
+    margin-left: 10px;
+}
+.heading {
+    margin-top: 25px;
+}
+.order {
+    display: flex;
+}
+.shipping {
+    background: black;
+    color: white;
+    width: 40%;
+    height: 25px;
+    padding: 5px 0;
+    padding-left: 10px;
+    position: absolute;
+    top: 0px;
+    right: 15px;
+}
+.pshipping {
+    font-size: 13px;
+}
+.yellow-bar {
+    height: 4px;
+    width: 20%;
+    background: yellow;
+    margin: auto;
+}
+.price {
+    color: gray;
+}
+.button {
+    color: white;
+    background: black;
+    outline: none;
+    border: 1px solid black;
+}
+.button:hover {
+    color: white;
+    background: black;
+    opacity: 0.9;
+    outline: none;
+    border: 1px solid black;
+}
